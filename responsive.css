@@ -1,0 +1,344 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.title {
+  text-align: center;
+  font-weight: 900;
+  color: #37447e;
+  font-size: 26px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  color: #505f98;
+  gap: 3rem;
+}
+
+#button {
+  width: 160px;
+  height: 27px;
+  background-color: #111b47;
+  color: #ffffff;
+}
+
+.button {
+  color: #ffffff;
+}
+
+.introduction {
+  display: flex;
+  margin-top: 65px;
+  width: 100%;
+  justify-content: center;
+}
+
+.part1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.introduction h1 {
+  color: #091133;
+  width: 230px;
+  line-height: 1.5;
+  font-size: 30px;
+}
+
+.introduction p {
+  width: 330px;
+  margin-top: 25px;
+}
+
+p {
+  color: #505f98;
+}
+
+#p2 {
+  margin-top: 20px;
+}
+
+.introbuttons {
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.introbuttons button {
+  width: 122px;
+  height: 40px;
+  border: 2px solid #091133;
+}
+
+.purchasebutton {
+  margin-right: 15px;
+  background-color: #111b47;
+  color: #ffffff;
+}
+
+.morebutton {
+  background-color: #ffffff;
+  color: #091133;
+}
+
+.img1 {
+  width: 100%;
+}
+
+#img1 {
+  height: 750px;
+  width: 100%;
+}
+
+.section2 {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.part2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contentsection2 {
+  width: 60%;
+  flex-direction: column;
+  display: flex;
+}
+
+.img2 {
+  width: 100%;
+}
+
+#img2 {
+  height: 400px;
+  width: 100%;
+}
+
+.icons {
+  display: flex;
+  margin-top: 70px;
+  width: 100%;
+}
+
+.icon1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.icon2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+#title {
+  font-weight: bold;
+  color: black;
+}
+
+.section3, .section4 {
+  display: flex;
+  margin-top: 150px;
+}
+
+.part3, .part4 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contentsection3, .contentsection4 {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.img3,
+.img4,
+.img5 {
+  width: 100%;
+}
+
+#img3,
+#img4,
+#img5 {
+  height: 250px;
+  width: 100%;
+}
+
+.section5 {
+  display: flex;
+  margin-top: 150px;
+  align-items: center;
+  width: 100%;
+}
+
+.contentsection5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+}
+
+#purchasebutton {
+  background-color: #111b47;
+  color: #ffffff;
+  margin-top: 15px;
+  height: 30px;
+  width: 35%;
+}
+
+.section6 {
+  background-color: #e7ecff;
+  text-align: center;
+  margin-top: 200px;
+  padding-bottom: 120px;
+}
+
+#h2 {
+  color: #091133;
+  padding-top: 150px;
+  font-size: 28px;
+  font-family: Roboto;
+}
+
+#price {
+  color: #222f65;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+
+#designkit {
+  color: #37447e;
+  font-size: 12px;
+  line-height: 0;
+}
+
+#p {
+  color: #5d6970;
+  margin-top: 50px;
+  font-size: 10px;
+}
+
+#purchasebutton3 {
+  background-color: #111b47;
+  color: #ffffff;
+  width: 140px;
+  height: 25px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h3 {
+  font-size: 25px;
+  color: #37447e;
+}
+
+#company {
+  color: #939ea4;
+  font-size: 14px;
+}
+
+footer {
+  background-color: #d1e6e5;
+}
+
+hr {
+  width: 100%;
+  color: #cdd1d4;
+}
+
+footer li {
+  color: #929ecc;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1100px) {
+  .introduction, .section2, .section3, .section4, .section5 {
+    flex-direction: column;
+  }
+
+  .content, .contentsection5{
+    align-items: center;
+  }
+
+  .introduction h1 {
+    margin-right: 100px;
+  }
+
+  .introbuttons {
+    justify-content: center;
+  }
+
+  .part5 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contentsection5 {
+    align-items: flex-start;
+  }
+
+  .section2, .section3, .section4, .section5, .part2, .part3, .part4, .part5 {
+    margin-top: 25px;
+  }
+
+  .info {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logos{
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
